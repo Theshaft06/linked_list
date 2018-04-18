@@ -1,12 +1,17 @@
 var Type = require('./data-types');
 var linkedList = new Type.LinkedList();
 
-for (var i = 1; i <= 10; i++) {
-    linkedList.add(i)
-}
+
+linkedList.add(1)
+linkedList.add('bom')
+linkedList.add(true)
+linkedList.add("squirrel")
+linkedList.add({name: 'Matt'})
+linkedList.add([1, 2, 3, 4, 5])
+
 
 console.log(linkedList.to_array());
 
-linkedList.remove(3);
+// linkedList.remove(3);
 
-console.log(linkedList.to_array());
+// console.log(linkedList.to_array());

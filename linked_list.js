@@ -1,4 +1,4 @@
-var Node = require('./node');
+var Node = require('./node').Node;
 
 function LinkedList() {
     this._length = 0;
